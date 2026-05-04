@@ -3,7 +3,7 @@
 ### Acknowledgments
 The Python code is from the short course "Evaluating and Debugging Generative AI" on the DeepLearning.AI platform, available for free.  
 For more details, visit:  
-<>
+<https://learn.deeplearning.ai/courses/evaluating-debugging-generative-ai/information>
 
 ### Description
 This repository contains only Python code from my practice after each lesson.  
