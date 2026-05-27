@@ -51,10 +51,10 @@ optim = torch.optim.Adam(nn_model.parameters(), lr = config.lrate)
 noises = torch.randn(config.num_samples, 3, config.height, config.height).to(DEVICE)
 
 ctx_vector = F.one_hot(torch.tensor([0, 0, 0, 0, 0, 0,
-                                     1, 1, 1, 1, 1, 1,
-                                     2, 2, 2, 2, 2, 2,
-                                     3, 3, 3, 3, 3, 3,
-                                     4, 4, 4, 4, 4, 4]),
+                                    1, 1, 1, 1, 1, 1,
+                                    2, 2, 2, 2, 2, 2,
+                                    3, 3, 3, 3, 3, 3,
+                                    4, 4, 4, 4, 4, 4]),
                                     5).to(DEVICE).float()
 
 ## ------------------------------------------------------ ##
